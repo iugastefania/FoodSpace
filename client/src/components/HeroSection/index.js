@@ -10,7 +10,7 @@ import {
     ArrowForward,
     ArrowRight
 } from './HeroElements'
-import Background from '../../assets/restaurant_bg.png'
+import Background from '../../assets/images/restaurant_bg.png'
 import {Button} from '../ButtonElement'
 
 const HeroSection = () => {
@@ -33,7 +33,7 @@ const HeroSection = () => {
                     restaurant based on your preferences.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="/signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    <Button to="/signin" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                         Get started {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
